@@ -1,38 +1,108 @@
-.App {
+.pet-app {
+  display: flex;
+  height: 100%;
+  columns: 2;
+  gap: 2%;
+  align-items: center;
+}
+
+.welcome {
+  color: #FAFAFA;
+  font-family: DM Sans, sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 460px;
+}
+
+.form_title {
+  color: #303030;
   text-align: center;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 365px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inner_form {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form_navigation {
   display: flex;
   flex-direction: column;
+}
+
+.form_navigation .ant-form-item {
+  margin-bottom: 5px;
+}
+
+.ant-select {}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+  border-color: #FF6A01;
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-input:hover {
+  border-color: #FF6A01;
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-input:focus,
+:where(.css-dev-only-do-not-override-1vr7spz).ant-input-focused {
+  border-color: #FF6A01;
+}
+
+:where(.css-dev-only-do-not-override-1vr7spz).ant-btn:not(:disabled):focus-visible {
+  outline: 4px solid #FFD1B0;
+  outline-offset: 1px;
+  transition: outline-offset 0s, outline 0s;
+}
+
+.ant-select-focused:where(.css-dev-only-do-not-override-1vr7spz).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
+  border-color: #FF6A01;
+}
+
+.ant-btn-primary {
+  background-color: #FF6A01;
+}
+
+.ant-btn-link:focus,
+.ant-btn-link-focused {
+  outline: 0px;
+  outline-offset: 0px;
+  color: #FF6A01;
+}
+
+.ant-btn-link {
+  color: #667085;
+}
+
+.ant-btn-link:where(.css-dev-only-do-not-override-1vr7spz).ant-btn-link:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #505868;
+}
+
+.ant-btn-primary:where(.css-dev-only-do-not-override-1vr7spz).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #E55F00;
+}
+
+.form {
+  border-radius: 40px;
+  background: #FAFAFA;
+  display: flex;
+  max-width: 460px;
+  width: 100%;
+  padding: 40px;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mientras {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

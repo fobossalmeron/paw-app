@@ -4,7 +4,7 @@ import Stepper from "./Stepper";
 
 function App() {
   return (
-    <div className="App">
+    <div className="pet-app">
       <Stepper />
     </div>
   );
