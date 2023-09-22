@@ -16,8 +16,6 @@ function PetNameForm(
       produce((formState) => {
         formState.steps.petName = {
           value,
-          valid: true,
-          dirty: false,
         };
       })
     );
@@ -32,18 +30,6 @@ function PetNameForm(
     username?: string;
     name?: string;
   };
-
-  // const { isDirty } = useFormState({
-  //   control,
-  // });
-
-  // useEffect(() => {
-  //   setForm(
-  //     produce((form) => {
-  //       form.steps.details.dirty = isDirty;
-  //     })
-  //   );
-  // }, [isDirty, setForm]);
 
   return (
     <>

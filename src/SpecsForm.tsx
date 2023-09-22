@@ -1,8 +1,11 @@
 import { useContext } from "react";
 import { Button, Form, Select } from "antd";
+import { Fade } from "react-awesome-reveal";
 
 import FormStateContext from "./FormStateContext";
 import { produce } from "immer";
+
+import SpecieToggle from "./SpecieToggle";
 
 const breeds = [
   {
@@ -61,6 +64,7 @@ function SpecsForm(
   props: React.PropsWithChildren<{
     onNext: () => void;
     onPrev: () => void;
+    setSpecie: (specie: string) => void;
   }>
 ) {
   const { form, setForm } = useContext(FormStateContext);
@@ -70,8 +74,6 @@ function SpecsForm(
       produce((formState) => {
         formState.steps.specs = {
           value,
-          valid: true,
-          dirty: false,
         };
       })
     );
@@ -102,100 +104,112 @@ function SpecsForm(
           ? form.steps.petName.value.name
           : "tu amigo peludo"}
       </p>
-      <Form
-        name="specsForm"
-        layout="vertical"
-        className="inner_form"
-        requiredMark={false}
-        initialValues={{
-          remember: true,
-          breed: form.steps.specs.value.breed,
-          age: form.steps.specs.value.age,
-          weight: form.steps.specs.value.weight,
-        }}
-        onFinish={onFinish}
-        onFinishFailed={onFinishFailed}
-        autoComplete="off"
-      >
-        <Form.Item
-          label="Raza"
-          name="breed"
-          rules={[
-            {
-              required: true,
-              message: "Por favor busca la raza de tu mascota",
-            },
-          ]}
-        >
-          <Select
-            showSearch
-            size="large"
-            placeholder="¿Cuál es su raza?"
-            optionFilterProp="label"
-            onChange={onChange}
-            onSearch={onSearch}
-            filterOption={filterOption}
-            options={breeds}
-          />
-        </Form.Item>
+      <div style={{ width: "100%" }}>
+        <SpecieToggle setSpecie={props.setSpecie} />
 
-        <Form.Item
-          label="Edad"
-          name="age"
-          rules={[
-            {
-              required: true,
-              message: "Por favor selecciona la edad",
-            },
-          ]}
+        <Form
+          name="specsForm"
+          layout="vertical"
+          className="inner_form"
+          requiredMark={false}
+          initialValues={{
+            remember: true,
+            breed: form.steps.specs.value.breed,
+            age: form.steps.specs.value.age,
+            weight: form.steps.specs.value.weight,
+          }}
+          onFinish={onFinish}
+          onFinishFailed={onFinishFailed}
+          autoComplete="off"
         >
-          <Select
-            placeholder="Selecciona la edad"
-            size="large"
-            options={age_ranges}
-          />
-        </Form.Item>
+          {form.specie === "dog" && (
+            <Fade>
+              <Form.Item
+                label="Raza"
+                name="breed"
+                rules={[
+                  {
+                    required: true,
+                    message: "Por favor busca la raza de tu mascota",
+                  },
+                ]}
+              >
+                <Select
+                  showSearch
+                  size="large"
+                  placeholder="¿Cuál es su raza?"
+                  optionFilterProp="label"
+                  onChange={onChange}
+                  onSearch={onSearch}
+                  filterOption={filterOption}
+                  options={breeds}
+                />
+              </Form.Item>
+            </Fade>
+          )}
 
-        <Form.Item
-          label="Peso"
-          name="weight"
-          rules={[
-            {
-              required: true,
-              message: "Por favor selecciona el peso",
-            },
-          ]}
-        >
-          <Select
-            size="large"
-            placeholder="Selecciona el peso"
-            options={weight_ranges}
-          />
-        </Form.Item>
+          <Form.Item
+            label="Edad"
+            name="age"
+            rules={[
+              {
+                required: true,
+                message: "Por favor selecciona la edad",
+              },
+            ]}
+          >
+            <Select
+              placeholder="Selecciona la edad"
+              size="large"
+              options={age_ranges}
+            />
+          </Form.Item>
 
-        <div className="form_navigation">
-          <Form.Item>
+          {form.specie === "dog" && (
+            <Fade>
+              <Form.Item
+                label="Peso"
+                name="weight"
+                rules={[
+                  {
+                    required: true,
+                    message: "Por favor selecciona el peso",
+                  },
+                ]}
+              >
+                <Select
+                  size="large"
+                  placeholder="Selecciona el peso"
+                  options={weight_ranges}
+                />
+              </Form.Item>
+            </Fade>
+          )}
+
+          <div className="form_navigation">
+            <Form.Item>
+              <Button
+                type="primary"
+                block
+                size="large"
+                shape="round"
+                htmlType="submit"
+              >
+                Siguiente
+              </Button>
+            </Form.Item>
             <Button
-              type="primary"
+              type="link"
               block
               size="large"
               shape="round"
-              htmlType="submit"
+              onClick={props.onPrev}
             >
-              Siguiente
+              ← Atrás
             </Button>
-          </Form.Item>
-          <Button
-            type="link"
-            block
-            size="large"
-            shape="round"
-            onClick={props.onPrev}
-          >
-            ← Atrás
-          </Button>
-        </div>
-      </Form>
+          </div>
+        </Form>
+      </div>
     </>
   );
 }

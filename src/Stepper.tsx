@@ -2,7 +2,6 @@ import { useCallback, useContext, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 
 import { produce } from "immer";
-import { Tab } from "@headlessui/react";
 
 import FORM_STATE from "./form_state";
 import FormStateContext from "./FormStateContext";
@@ -49,7 +48,7 @@ interface StepProps {
 }
 
 const Step = ({ children, onClick }: StepProps) => {
-  return <Tab onClick={onClick}>{children} </Tab>;
+  return <button onClick={onClick}>{children} </button>;
 };
 
 const CreateTaskMultiStepForm = () => {
@@ -73,6 +72,7 @@ const CreateTaskMultiStepForm = () => {
 
   const setSelectedIndex = useCallback(
     (index: number) => {
+      console.log(index);
       setForm(
         produce((form) => {
           form.selectedIndex = index;
@@ -82,65 +82,68 @@ const CreateTaskMultiStepForm = () => {
     [setForm]
   );
 
-  const selectedIndex = form.selectedIndex;
+  const setSpecie = useCallback(
+    (specie: string) => {
+      console.log(specie);
+      setForm(
+        produce((form) => {
+          form.specie = specie;
+        })
+      );
+    },
+    [setForm]
+  );
 
   return (
     <>
-      <Tab.Group selectedIndex={selectedIndex}>
-        <Tab.List className="mientras">
-          {FORM_STEPS.map((step, index) => {
-            return (
-              <Step
-                key={index}
-                step={index + 1}
-                onClick={() => {
-                  setSelectedIndex(index);
-                }}
-              >
-                {step.label}
-              </Step>
-            );
-          })}
-        </Tab.List>
+      <div className="mientras">
+        {FORM_STEPS.map((step, index) => {
+          return (
+            <Step
+              key={index}
+              step={index + 1}
+              onClick={() => {
+                setSelectedIndex(index);
+              }}
+            >
+              {step.label}
+            </Step>
+          );
+        })}
+      </div>
+
+      {form.selectedIndex <= 2 && (
         <Fade>
           <p className="welcome">
             Te ayudaremos a elegir los mejores productos para tu amigo peludo
           </p>
         </Fade>
-        <Tab.Panels>
-          <Tab.Panel>
-            <Fade>
-              <div className="form">
-                <PetNameForm onNext={next} />
-              </div>
-            </Fade>
-          </Tab.Panel>
+      )}
+      {form.selectedIndex === 0 && (
+        <Fade>
+          <div className="form">
+            <PetNameForm onNext={next} />
+          </div>
+        </Fade>
+      )}
 
-          <Tab.Panel>
-            <Fade>
-              <div className="form">
-                <SpecsForm onNext={next} onPrev={prev} />
-              </div>
-            </Fade>
-          </Tab.Panel>
+      {form.selectedIndex === 1 && (
+        <Fade>
+          <div className="form">
+            <SpecsForm onNext={next} onPrev={prev} setSpecie={setSpecie} />
+          </div>
+        </Fade>
+      )}
 
-          <Tab.Panel>
-            <Fade>
-              <div className="form">
-                <MailForm onNext={next} onPrev={prev} />
-              </div>
-            </Fade>
-          </Tab.Panel>
+      {form.selectedIndex === 2 && (
+        <Fade>
+          <div className="form">
+            <MailForm onNext={next} onPrev={prev} />
+          </div>
+        </Fade>
+      )}
 
-          <Tab.Panel>
-            <Fade>
-              <div>
-                <Results />
-              </div>
-            </Fade>
-          </Tab.Panel>
-        </Tab.Panels>
-      </Tab.Group>
+      {form.selectedIndex === 3 && <Results />}
     </>
   );
 };

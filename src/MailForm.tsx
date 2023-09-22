@@ -17,8 +17,6 @@ function MailForm(
       produce((formState) => {
         formState.steps.email = {
           value,
-          valid: true,
-          dirty: false,
         };
       })
     );
@@ -49,7 +47,6 @@ function MailForm(
         initialValues={{ remember: true, email: form.steps.email.value.email }}
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
-        autoComplete="off"
       >
         <Form.Item<FieldType>
           label="Ingresa tu correo"

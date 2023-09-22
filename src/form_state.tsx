@@ -1,16 +1,13 @@
 const FORM_STATE = {
   selectedIndex: 0,
+  specie: "dog",
   steps: {
     petName: {
-      valid: false,
-      dirty: false,
       value: {
         name: undefined,
       },
     },
     specs: {
-      valid: false,
-      dirty: false,
       value: {
         breed: undefined,
         age: undefined,
@@ -18,8 +15,6 @@ const FORM_STATE = {
       },
     },
     email: {
-      valid: false,
-      dirty: false,
       value: {
         email: undefined,
       },
