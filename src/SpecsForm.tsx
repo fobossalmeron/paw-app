@@ -1,11 +1,15 @@
 import { useContext } from "react";
 import { Button, Form, Select } from "antd";
 import { Fade } from "react-awesome-reveal";
+import quiz from "./quiz.json";
 
 import FormStateContext from "./FormStateContext";
 import { produce } from "immer";
 
 import SpecieToggle from "./SpecieToggle";
+
+const breeds2 = quiz.map(({ breed }) => breed);
+const breeds3 = quiz.map(({ breed }) => ({ value: breed, label: breed }));
 
 const breeds = [
   {
@@ -67,6 +71,8 @@ function SpecsForm(
     setSpecie: (specie: string) => void;
   }>
 ) {
+  console.log(breeds2);
+  console.log(breeds3);
   const { form, setForm } = useContext(FormStateContext);
 
   const onFinish = (value: any) => {
@@ -142,7 +148,7 @@ function SpecsForm(
                   onChange={onChange}
                   onSearch={onSearch}
                   filterOption={filterOption}
-                  options={breeds}
+                  options={breeds3}
                 />
               </Form.Item>
             </Fade>
@@ -165,7 +171,7 @@ function SpecsForm(
             />
           </Form.Item>
 
-          {form.specie === "dog" && (
+          {/* {form.specie === "dog" && (
             <Fade>
               <Form.Item
                 label="Peso"
@@ -184,7 +190,7 @@ function SpecsForm(
                 />
               </Form.Item>
             </Fade>
-          )}
+          )} */}
 
           <div className="form_navigation">
             <Form.Item>

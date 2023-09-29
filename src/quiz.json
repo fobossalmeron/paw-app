@@ -1,0 +1,1286 @@
+[
+  {
+    "breed": "Affenpinscher",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Aidi (Perro del Atlas)",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Alano Español",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Airedale Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Akita Inu",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Akita Americano",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "American Bully",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Alaskan Malamute",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Alaskan Klee Kai",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "American Pit Bull Terrier",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "American Staffordshire",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Australian Silky Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Azawakh",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Basenji",
+    "prop1": "Aller inmune",
+    "prop2": "Hip & Joint",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Barbet",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Basset Alpino",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Basset Artesiano de Normandia",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Basset Azul de Gascuña",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Basset Leonado de Bretaña",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Basset Hound",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Beagle",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Beagle-Harrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Bedlington Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Bergamasco",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bichon Boloñes (Bolognese)",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bichon de pelo Frisado",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bichon Habanero",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Bloodhound",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Bobtail",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Border Collie",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bóxer",
+    "prop1": "Aller Inmune",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Boston Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Borzoi",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Boyero de Appenzell",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Boyero de Berna",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Boyero de Flandes",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Boyero de Entlebuch",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Braco Aleman de Pelo Corto",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Braco Frances",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Buhund Noruego",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bullmastiff",
+    "prop1": "Hip & Joint",
+    "prop2": "Wrinkle Balm",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Bull Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Bulldog Francés",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Wrinkle Balm",
+    "prop3": "Snout Soother"
+  },
+  {
+    "breed": "Bulldog Inglés",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Wrinkle Balm"
+  },
+  {
+    "breed": "Cavalier King Charles Spaniel",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Cazador de Alce Noruego",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Cesky Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Cimarron Uruguayo",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Chihuahua",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Chin Japones",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Chow Chow",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Cirneco del Etna",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Cobrador de Pelo Liso",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Cocker Spaniel",
+    "prop1": "Skin and Coat",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Cocher Spaniel Americano",
+    "prop1": "Aller inmune",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Collie",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Collie de pelo corto",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Corgi Galés de Cárdigan",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Crestado Chino",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Dandie Dinmont Terrier",
+    "prop1": "Aller inmune",
+    "prop2": "Hip & Joint",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Dálmata",
+    "prop1": "Shampoo sensitive skin",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Doberman",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Dogo Aleman",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Dogo Argentino",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Dogo de Burdeos (Dogue des Bordeaux)",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Dogo Mallorquín",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Esquimal Canadiense",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Eurasier",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Fila Brasileño",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Fox Terrier",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Foxhound Americano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Galgo Húngaro",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Galgo Inglés",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Galgo Italiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Glen of Imaal Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Golden Retriever",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Gran Danés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Gran Pirineo",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Greyhound",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Grifon Belga",
+    "prop1": "Skin and Coat",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Hovawart",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Huskey Siberiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Jack Russell Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Keeshond (Wolfspitz)",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Kerry Blue Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Skin and Coat"
+  },
+  {
+    "breed": "Komondor",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Kuvasz",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Labrador Retriever",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Laika de Siberia Oriental",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Lebrel Afgano",
+    "prop1": "Skin and Coat",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Lebrel Escosés",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Lebrel Polaco",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Leonberger",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Lobero Irlandés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Lobo de Saarloos",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Lowchen (pequeño perro león)",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Lundehund",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Mestizo (callejero)",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Manchester Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Maltese",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Mastín Español",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Mastín Napolitano",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Mastín Tibetano",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Mastín del Pirineo",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Mudi",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Mucuchies",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Munsterlander Grande",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Munsterlader Pequeño",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Norfolk Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Otterhound",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Ovejero Megallánico",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pachón Navarro",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Phalène",
+    "prop1": "Pawsoother",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Papillón",
+    "prop1": "Pawsoother",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor Alemán",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor Beauceron",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Belga Tervueren",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Croata",
+    "prop1": "Skin and Coat",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor de Brie",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Garafiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Holandés",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Leonés",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor ovejero Australiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor Mallorquín",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor de Maremma",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor de Picardía",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Pastor de las Islas de Shetland",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pastor Peuano Chiribaya",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pastor Suizo",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Pastor Vasco",
+    "prop1": "Skin and Coat",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Pastor de Valée",
+    "prop1": "Skin and Coat",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pequinés",
+    "prop1": "Shampoo sensitive skin",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perdiguero Francés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perdiguero Portugués",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro de Agua Portugués (Cao de agua Portugués)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Perro de Castro Laboreiro (Cao de Castro Laboreiro)",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Perro de Fila de Sao Miguel (Cao de Fila de Sao Miguel)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro de Serra de Aires (Cao de Serra de Aires)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin and Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro de Serra de Estrella (Cao de Serra de Estrella)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin and Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro de Aguas Español",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Perro Crestado Rodesiano (Rhodesian Ridgeback)",
+    "prop1": "Hip & Joint",
+    "prop2": "Pawsoother",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro de Groenlandia",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Perro Majorero",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Perro Lobo Checoslovaco",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Presa Canario",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Podenco",
+    "prop1": "Calming",
+    "prop2": "Probiotic",
+    "prop3": "Pawsoother"
+  },
+  {
+    "breed": "Podenco Canario",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Podenco Ibicenco",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Podenco Portugués",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pinscher Miniatura",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pointer Inglés",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Pomsky",
+    "prop1": "Aller inmune",
+    "prop2": "Hip & Joint",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pomerania",
+    "prop1": "Hip & Joint",
+    "prop2": "Calming",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Poodle (Caniche)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Pug (Carlino)",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Puli",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pudelpointer",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Pitbull",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Pumi",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Rafeiro do Alentejo",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Ratonero Valenciano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Ratonero Bodeguero Andaluz",
+    "prop1": "Hip & Joint",
+    "prop2": "Calming",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Retriever de Chesapeake",
+    "prop1": "Hip & Joint",
+    "prop2": "Calming",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Retriever de Nueva Escocia",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Ridgeback Tailandés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Rottweiler",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin and Coat"
+  },
+  {
+    "breed": "Sabueso Bosnio",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Sabueso Artesiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Sabueso Fino Colombiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Salchicha (Teckel, Dachshund)",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin and Coat",
+    "prop3": "ALLER INMUNE"
+  },
+  {
+    "breed": "Samoyedo",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "San Bernardo",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Schnauzer",
+    "prop1": "Skin and Coat",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Schapendoes",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Schipperke",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Setter Inglés",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Setter Irlandés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Shar Pei",
+    "prop1": "Shampoo sensitive skin",
+    "prop2": "Hip & Joint",
+    "prop3": "Wrinkle Balm"
+  },
+  {
+    "breed": "Shiba Inu",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Shih Tzu",
+    "prop1": "Probiotic",
+    "prop2": "Skin & Coat",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Shikoku Inu",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Skye Terrier",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Spaniel Tibetano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Spaniel Breton",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Spaniel de campo",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Spaniel Clumber",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Spitz Finlandés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Spitz Japonés",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Spitz Enano",
+    "prop1": "Hip & Joint",
+    "prop2": "Hip & Joint",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Spitz Mediano",
+    "prop1": "Hip & Joint",
+    "prop2": "Hip & Joint",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Springer Spaniel Inglés",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  },
+  {
+    "breed": "Staffordshire Bull Terrier",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Sussex Spaniel",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Terranova",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Terrier Alemán",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin and Coat"
+  },
+  {
+    "breed": "Terrier Australiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Itchy Dog"
+  },
+  {
+    "breed": "Terrier Brasileño",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Probiotic"
+  },
+  {
+    "breed": "Terrier de Nordfolk",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Terrier de Norwich",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Terrier Checo",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo sensitive Skin",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Terrier Chileno",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Terrier Escocés",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Terrier Gales",
+    "prop1": "Aller inmune",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Terrier Irlandés",
+    "prop1": "Aller inmune",
+    "prop2": "Paw soother",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Terrier Ruso Negro",
+    "prop1": "Aller inmune",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Terrier Tibetano",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "breed": "Toy Espaniel Inglés",
+    "prop1": "Shampoo sensitive skin",
+    "prop2": "Skin & Coat",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Vallhund Sueco",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Volpino Italiano",
+    "prop1": "Hip & Joint",
+    "prop2": "Skin & Coat",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Whippet",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Shampoo Sensitive Skin"
+  },
+  {
+    "breed": "Weimaraner",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin and Coat"
+  },
+  {
+    "breed": "West Higland white Terrier (Perro Westy)",
+    "prop1": "Shampoo sensitive skin",
+    "prop2": "Aller Inmune",
+    "prop3": "Hip & Joint"
+  },
+  {
+    "breed": "Xoloitzcuintle",
+    "prop1": "Skin and Coat",
+    "prop2": "Skin soother",
+    "prop3": "Calming"
+  },
+  {
+    "breed": "Yorkshire Terrier",
+    "prop1": "Shampoo Itchy Dog",
+    "prop2": "Hip & Joint",
+    "prop3": "Skin & Coat"
+  }
+]
