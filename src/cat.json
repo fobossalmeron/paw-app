@@ -1,0 +1,20 @@
+[
+  {
+    "age": "puppy",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Skin & Coat"
+  },
+  {
+    "age": "adult",
+    "prop1": "Hip & Joint",
+    "prop2": "Aller Inmune",
+    "prop3": "Probiotic"
+  },
+  {
+    "age": "senior",
+    "prop1": "Hip & Joint",
+    "prop2": "Shampoo Itchy Dog",
+    "prop3": "Aller Inmune"
+  }
+]

@@ -72,7 +72,6 @@ const CreateTaskMultiStepForm = () => {
 
   const setSelectedIndex = useCallback(
     (index: number) => {
-      console.log(index);
       setForm(
         produce((form) => {
           form.selectedIndex = index;
