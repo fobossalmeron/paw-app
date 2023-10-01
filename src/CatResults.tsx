@@ -10,12 +10,12 @@ function DogResults() {
     (specs) => specs.age === form.steps.specs.value.age
   );
   const ageProducts = cat[ageIndex];
-
+  console.log(ageProducts);
   return (
     <>
-      <Recommendation product={ageProducts.prop1} />
-      <Recommendation product={ageProducts.prop2} />
-      <Recommendation product={ageProducts.prop3} />
+      <Recommendation productId={ageProducts.prop1} />
+      <Recommendation productId={ageProducts.prop2} />
+      <Recommendation productId={ageProducts.prop3} />
     </>
   );
 }

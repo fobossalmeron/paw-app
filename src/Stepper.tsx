@@ -18,9 +18,9 @@ const FORM_STEPS = [
   {
     label: `Specs de mascota`,
   },
-  {
-    label: `Email`,
-  },
+  // {
+  //   label: `Email`,
+  // },
   {
     label: `Completado`,
   },
@@ -111,7 +111,7 @@ const CreateTaskMultiStepForm = () => {
         })}
       </div>
 
-      {form.selectedIndex <= 2 && (
+      {form.selectedIndex <= 1 && (
         <Fade>
           <p className="welcome">
             Te ayudaremos a elegir los mejores productos para tu amigo peludo
@@ -134,15 +134,15 @@ const CreateTaskMultiStepForm = () => {
         </Fade>
       )}
 
-      {form.selectedIndex === 2 && (
+      {/* {form.selectedIndex === 2 && (
         <Fade>
           <div className="form">
             <MailForm onNext={next} onPrev={prev} />
           </div>
         </Fade>
-      )}
+      )} */}
 
-      {form.selectedIndex === 3 && <Results />}
+      {form.selectedIndex === 2 && <Results />}
     </>
   );
 };

@@ -22,13 +22,13 @@ function DogResults() {
   return (
     <>
       <Recommendation
-        product={addHipAndJoint ? "Hip & Joint" : breedProducts.prop1}
+        productId={addHipAndJoint ? "Hip & Joint" : breedProducts.prop1}
       />
       <Recommendation
-        product={addHipAndJoint ? breedProducts.prop1 : breedProducts.prop2}
+        productId={addHipAndJoint ? breedProducts.prop1 : breedProducts.prop2}
       />
       <Recommendation
-        product={addHipAndJoint ? breedProducts.prop2 : breedProducts.prop3}
+        productId={addHipAndJoint ? breedProducts.prop2 : breedProducts.prop3}
       />
     </>
   );

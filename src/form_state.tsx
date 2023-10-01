@@ -4,7 +4,7 @@ const FORM_STATE = {
   steps: {
     petName: {
       value: {
-        name: undefined,
+        name: "",
       },
     },
     specs: {
@@ -16,7 +16,7 @@ const FORM_STATE = {
     },
     email: {
       value: {
-        email: undefined,
+        email: "",
       },
     },
   },

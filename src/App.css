@@ -81,7 +81,7 @@
 
 .mientras {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
 }
 
@@ -238,7 +238,7 @@
 }
 
 .results .welcome {
-  max-width: 900px;
+  max-width: 860px;
   text-align: center;
 }
 
@@ -282,6 +282,55 @@
 .results .ant-btn-link:focus span,
 .results .ant-btn-link-focused span {
   text-decoration: underline;
+}
+
+.last_button {
+  margin-top: 20px;
+}
+
+/* Recommendation */
+
+.products {
+  display: flex;
+  gap: 2%;
+}
+
+.recommendation {
+  color: white;
+  display: flex;
+  padding: 20px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 21.6px;
+  background: rgba(255, 255, 255, 0.08);
+  max-width: 400px;
+}
+
+.recommendation div {
+  height: 128px;
+  width: auto;
+}
+
+.recommendation div img {
+  height: 160px;
+  transform: translateY(-40px);
+  width: auto;
+}
+
+.recommendation h4 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+
+.recommendation p {
+  margin: 0;
+  line-height: 130%;
 }
 
 @media(max-width:920px) {

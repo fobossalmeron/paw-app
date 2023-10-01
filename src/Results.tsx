@@ -10,7 +10,7 @@ function Results() {
 
   return (
     <div className="results">
-      <Fade>
+      <Fade triggerOnce>
         <p className="welcome final">
           Elección perfecta para las necesidades de{" "}
           {form.steps.petName.value.name !== undefined
@@ -18,18 +18,15 @@ function Results() {
             : "tu amigo peludo"}
         </p>
         {/* <pre>{JSON.stringify(form, null, 2)}</pre> */}
-        {form.steps.petName.value.name && form.specie === "dog" && (
-          <DogResults />
-        )}
-        {form.steps.petName.value.name && form.specie === "cat" && (
-          <CatResults />
-        )}
-        <div className="products"></div>
-        <div className="form_navigation">
-          <Button type="primary" size="large" shape="round" htmlType="submit">
-            Continuar con la recomendación
-          </Button>
-
+        <div className="products">
+          {form.steps.petName.value.name && form.specie === "dog" && (
+            <DogResults />
+          )}
+          {form.steps.petName.value.name && form.specie === "cat" && (
+            <CatResults />
+          )}
+        </div>
+        <div className="last_button">
           <Button type="link" size="large" shape="round">
             Ver más productos
           </Button>
