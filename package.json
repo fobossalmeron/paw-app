@@ -1,10 +1,11 @@
 {
-  "name": "my-app",
+  "name": "paw-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://fobossalmeron.github.io/paw-app",
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",

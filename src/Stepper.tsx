@@ -8,7 +8,6 @@ import FormStateContext from "./FormStateContext";
 
 import PetNameForm from "./PetNameForm";
 import SpecsForm from "./SpecsForm";
-import MailForm from "./MailForm";
 import Results from "./Results";
 
 const FORM_STEPS = [
@@ -18,9 +17,6 @@ const FORM_STEPS = [
   {
     label: `Specs de mascota`,
   },
-  // {
-  //   label: `Email`,
-  // },
   {
     label: `Completado`,
   },

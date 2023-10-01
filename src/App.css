@@ -83,6 +83,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  display: none;
 }
 
 .inner_form {
@@ -157,25 +158,25 @@
 /* Input colors*/
 
 .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
-  border-color: #FF6A01;
+  border-color: #F0751F;
 }
 
 .ant-input:hover {
-  border-color: #FF6A01;
+  border-color: #F0751F;
 }
 
 .ant-input:focus,
 .ant-input-focused {
-  border-color: #FF6A01;
+  border-color: #F0751F;
 }
 
 .ant-select-focused.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
-  border-color: #FF6A01;
+  border-color: #F0751F;
 }
 
 /* Primary Button */
 .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled) {
-  background-color: #FF6A01;
+  background-color: #F0751F;
   font-weight: 500;
   box-shadow: none;
   height: 46px;
@@ -183,7 +184,7 @@
 }
 
 .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
-  background-color: #E55F00;
+  background-color: #E0650F;
 }
 
 .ant-btn-primary:not(:disabled):focus-visible {
@@ -249,12 +250,12 @@
 /* Primary Button in Results*/
 .results .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled) {
   background-color: white;
-  color: #FF6A01
+  color: #F0751F
 }
 
 .results .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
   background-color: #F4F4F4;
-  color: #FF6A01
+  color: #F0751F
 }
 
 .results .ant-btn-primary:not(:disabled):focus-visible {
@@ -306,6 +307,7 @@
   border-radius: 21.6px;
   background: rgba(255, 255, 255, 0.08);
   max-width: 400px;
+  flex: 1;
 }
 
 .recommendation div {
