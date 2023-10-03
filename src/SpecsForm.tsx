@@ -103,7 +103,7 @@ function SpecsForm(
           autoComplete="off"
         >
           {form.specie === "dog" && (
-            <Fade>
+            <Fade triggerOnce>
               <Form.Item
                 label="Raza"
                 name="breed"
@@ -144,7 +144,7 @@ function SpecsForm(
             </Fade>
           )}
           {form.specie === "cat" && (
-            <Fade>
+            <Fade triggerOnce>
               <Form.Item
                 label="Edad"
                 name="age"

@@ -108,14 +108,14 @@ const CreateTaskMultiStepForm = () => {
       </div>
 
       {form.selectedIndex <= 1 && (
-        <Fade>
+        <Fade triggerOnce>
           <p className="welcome">
             Te ayudaremos a elegir los mejores productos para tu amigo peludo
           </p>
         </Fade>
       )}
       {form.selectedIndex === 0 && (
-        <Fade>
+        <Fade triggerOnce>
           <div className="form">
             <PetNameForm onNext={next} />
           </div>
@@ -123,7 +123,7 @@ const CreateTaskMultiStepForm = () => {
       )}
 
       {form.selectedIndex === 1 && (
-        <Fade>
+        <Fade triggerOnce>
           <div className="form">
             <SpecsForm onNext={next} onPrev={prev} setSpecie={setSpecie} />
           </div>
@@ -131,7 +131,7 @@ const CreateTaskMultiStepForm = () => {
       )}
 
       {/* {form.selectedIndex === 2 && (
-        <Fade>
+        <Fade triggerOnce>
           <div className="form">
             <MailForm onNext={next} onPrev={prev} />
           </div>

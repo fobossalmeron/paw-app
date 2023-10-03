@@ -5,6 +5,7 @@ import { Fade } from "react-awesome-reveal";
 import DogResults from "./DogResults";
 import CatResults from "./CatResults";
 import { Player } from "@lottiefiles/react-lottie-player";
+import loadingAnim from "./loading.json";
 
 function Results() {
   const { form } = useContext(FormStateContext);
@@ -20,7 +21,7 @@ function Results() {
     <div className="results">
       {/* <pre>{JSON.stringify(form, null, 2)}</pre> */}
       {loading ? (
-        <Fade>
+        <Fade triggerOnce>
           <p className="welcome final">
             Buscando los productos para{" "}
             {form.steps.petName.value.name !== undefined
@@ -30,17 +31,17 @@ function Results() {
           <Player
             autoplay
             loop
-            src={process.env.PUBLIC_URL + "/loading.json"}
+            src={loadingAnim}
             style={{ height: "300px", width: "300px" }}
           ></Player>
         </Fade>
       ) : (
-        <Fade delay={2000}>
+        <Fade delay={2000} triggerOnce>
           <p className="welcome final">
             Productos que{" "}
             {form.steps.petName.value.name !== undefined
               ? form.steps.petName.value.name
-              : "tu amigo peludo"}{" "}
+              : "tu amigo peludo"}
             <br />
             debería probar
           </p>
