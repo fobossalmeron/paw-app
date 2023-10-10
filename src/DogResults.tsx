@@ -12,13 +12,10 @@ function DogResults() {
   const breedProducts = dog[breedIndex];
 
   const addHipAndJoint =
-    form.steps.specs.value.age === "senior" &&
+    form.steps.specs.value.age === "Senior" &&
     breedProducts.prop1 !== "Hip & Joint" &&
     breedProducts.prop2 !== "Hip & Joint" &&
     breedProducts.prop3 !== "Hip & Joint";
-
-  // const ageIndex =
-
   return (
     <>
       <Recommendation

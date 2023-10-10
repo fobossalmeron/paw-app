@@ -1,20 +1,20 @@
 [
   {
-    "age": "puppy",
-    "prop1": "Hip & Joint",
-    "prop2": "Aller Inmune",
-    "prop3": "Skin & Coat"
+    "age": "Puppy",
+    "prop1": "Salmon Oil",
+    "prop2": "Probiotic",
+    "prop3": "Salmon Oil"
   },
   {
-    "age": "adult",
-    "prop1": "Hip & Joint",
-    "prop2": "Aller Inmune",
-    "prop3": "Probiotic"
+    "age": "Adult",
+    "prop1": "Probiotic",
+    "prop2": "Salmon Oil",
+    "prop3": "Hip & Joint"
   },
   {
-    "age": "senior",
+    "age": "Senior",
     "prop1": "Hip & Joint",
-    "prop2": "Shampoo Itchy Dog",
-    "prop3": "Aller Inmune"
+    "prop2": "Probiotic",
+    "prop3": "Salmon Oil"
   }
 ]

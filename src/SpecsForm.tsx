@@ -12,30 +12,30 @@ const dogBreeds = dog.map(({ breed }) => ({ value: breed, label: breed }));
 
 const age_ranges_dog = [
   {
-    value: "puppy",
+    value: "Puppy",
     label: "Puppy (0 - 1 año)",
   },
   {
-    value: "adult",
+    value: "Adult",
     label: "Adult (1 - 7 años)",
   },
   {
-    value: "senior",
+    value: "Senior",
     label: "Senior (+7 años)",
   },
 ];
 
 const age_ranges_cat = [
   {
-    value: "puppy",
+    value: "Puppy",
     label: "Kitten (0 - 1 año)",
   },
   {
-    value: "adult",
+    value: "Adult",
     label: "Adult (1 - 7 años)",
   },
   {
-    value: "senior",
+    value: "Senior",
     label: "Senior (+7 años)",
   },
 ];
