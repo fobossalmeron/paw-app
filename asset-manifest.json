@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/paw-app/static/css/main.f1fbe052.css",
-    "main.js": "/paw-app/static/js/main.3f95e509.js",
+    "main.css": "/paw-app/static/css/main.b705bb57.css",
+    "main.js": "/paw-app/static/js/main.897ddd1e.js",
     "static/js/787.e44e607f.chunk.js": "/paw-app/static/js/787.e44e607f.chunk.js",
     "index.html": "/paw-app/index.html",
-    "main.f1fbe052.css.map": "/paw-app/static/css/main.f1fbe052.css.map",
-    "main.3f95e509.js.map": "/paw-app/static/js/main.3f95e509.js.map",
+    "main.b705bb57.css.map": "/paw-app/static/css/main.b705bb57.css.map",
+    "main.897ddd1e.js.map": "/paw-app/static/js/main.897ddd1e.js.map",
     "787.e44e607f.chunk.js.map": "/paw-app/static/js/787.e44e607f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1fbe052.css",
-    "static/js/main.3f95e509.js"
+    "static/css/main.b705bb57.css",
+    "static/js/main.897ddd1e.js"
   ]
 }
