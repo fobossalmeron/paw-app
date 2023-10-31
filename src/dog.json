@@ -1,5 +1,11 @@
 [
   {
+    "breed": "Mestizo / Callejero / Raza única",
+    "prop1": "Hip & Joint",
+    "prop2": "Probiotic",
+    "prop3": "Salmon Oil"
+  },
+  {
     "breed": "Affenpinscher",
     "prop1": "Hip & Joint",
     "prop2": "Aller Inmune",
@@ -580,12 +586,6 @@
     "prop1": "Hip & Joint",
     "prop2": "Probiotic",
     "prop3": "Shampoo Sensitive Skin"
-  },
-  {
-    "breed": "Mestizo (callejero)",
-    "prop1": "Hip & Joint",
-    "prop2": "Aller Inmune",
-    "prop3": "Probiotic"
   },
   {
     "breed": "Manchester Terrier",

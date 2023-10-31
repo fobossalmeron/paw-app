@@ -2,7 +2,7 @@
   display: flex;
   height: 100%;
   columns: 2;
-  gap: 2%;
+  gap: 3%;
   align-items: center;
 }
 
@@ -47,11 +47,12 @@
 .welcome {
   color: #FAFAFA;
   font-family: DM Sans, sans-serif;
-  font-size: 52px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 500;
   line-height: 115%;
   max-width: 460px;
+  letter-spacing: 0.1rem;
 }
 
 .form_title {
@@ -250,12 +251,16 @@
 /* Primary Button in Results*/
 .results .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled) {
   background-color: white;
-  color: #F0751F
+  color: #F0751F;
+  image-rendering: high-quality;
+  -webkit-font-smoothing: antialiased;
 }
 
 .results .ant-btn-primary.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
-  background-color: #F4F4F4;
-  color: #F0751F
+  background-color: #fefefe;
+  color: #F0751F;
+  transform: scale(0.97);
+  /* font-weight:600; */
 }
 
 .results .ant-btn-primary:not(:disabled):focus-visible {
@@ -293,7 +298,7 @@
 
 .products {
   display: flex;
-  gap: 2%;
+  gap: 24px;
 }
 
 .recommendation {
@@ -359,6 +364,10 @@
   .pet-app {
     flex-direction: column;
   }
+  .products{
+    flex-direction:column;
+    gap: 35px;
+  }
 }
 
 @media(max-width:600px) {
@@ -374,5 +383,12 @@
   .form_title {
     font-size: 24px;
     max-width: 340px;
+  }
+}
+
+@media(max-width:420px) {
+  .welcome {
+    font-size: 32px;
+    margin-bottom: 45px;
   }
 }
