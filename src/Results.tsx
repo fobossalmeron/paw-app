@@ -54,9 +54,11 @@ function Results() {
             )}
           </div>
           <div className="last_button">
-            <Button type="link" size="large" shape="round">
-              Ver más productos
-            </Button>
+            <a href="/collections/all">
+              <Button type="link" size="large" shape="round">
+                Ver más productos
+              </Button>
+            </a>
           </div>
         </Fade>
       )}
