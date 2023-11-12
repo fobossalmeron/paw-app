@@ -110,7 +110,7 @@ const CreateTaskMultiStepForm = () => {
       {form.selectedIndex <= 1 && (
         <Fade triggerOnce>
           <p className="welcome">
-            Te ayudaremos a elegir los mejores productos para tu amigo peludo
+            Te ayudaremos a elegir el producto ideal para tu mascota
           </p>
         </Fade>
       )}
