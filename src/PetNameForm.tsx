@@ -33,7 +33,10 @@ function PetNameForm(
 
   return (
     <>
-      <p className="form_title">Queremos conocer al amor de tu vida</p>
+      <p className="form_title">
+        Queremos conocer
+        <br /> al amor de tu vida
+      </p>
       <Form
         name="petNameForm"
         layout="vertical"

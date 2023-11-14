@@ -63,7 +63,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 115%;
-  max-width: 365px;
+  width: 365px;
   margin: 0px;
 }
 
@@ -364,8 +364,9 @@
   .pet-app {
     flex-direction: column;
   }
-  .products{
-    flex-direction:column;
+
+  .products {
+    flex-direction: column;
     gap: 35px;
   }
 }
@@ -390,5 +391,16 @@
   .welcome {
     font-size: 32px;
     margin-bottom: 45px;
+    width: 100%;
+  }
+
+  .form_title {
+    width: 100%;
+  }
+
+  .pet-app {
+    &>div {
+      width: 100%;
+    }
   }
 }
