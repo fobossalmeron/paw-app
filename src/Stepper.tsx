@@ -9,6 +9,7 @@ import FormStateContext from "./FormStateContext";
 import PetNameForm from "./PetNameForm";
 import SpecsForm from "./SpecsForm";
 import Results from "./Results";
+import dogilus from "./dogilus.png";
 
 const FORM_STEPS = [
   {
@@ -91,7 +92,7 @@ const CreateTaskMultiStepForm = () => {
 
   return (
     <>
-      <div className="mientras">
+      {/* <div className="mientras">
         {FORM_STEPS.map((step, index) => {
           return (
             <Step
@@ -105,11 +106,12 @@ const CreateTaskMultiStepForm = () => {
             </Step>
           );
         })}
-      </div>
+      </div> */}
 
       {form.selectedIndex <= 1 && (
         <Fade triggerOnce>
           <p className="welcome">
+            <img src={dogilus} alt="Tu mejor amigo" />
             Te ayudaremos a elegir el producto ideal para tu mascota
           </p>
         </Fade>

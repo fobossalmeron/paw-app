@@ -1,9 +1,16 @@
 .pet-app {
   display: flex;
   height: 100%;
-  columns: 2;
-  gap: 3%;
+  width: 100%;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1085px;
+}
+
+.pet-app>div {
+  width: 100%;
+  max-width: 455px;
+  flex-grow: 1;
 }
 
 .specie_setter {
@@ -51,8 +58,17 @@
   font-style: normal;
   font-weight: 500;
   line-height: 115%;
-  max-width: 460px;
+  width: 100%;
+  max-width: 490px;
   letter-spacing: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome img {
+  max-width: 280px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .form_title {
@@ -84,7 +100,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
 }
 
 .inner_form {
@@ -237,6 +252,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  max-width: unset !important;
 }
 
 .results .welcome {
@@ -391,7 +407,6 @@
   .welcome {
     font-size: 32px;
     margin-bottom: 45px;
-    width: 100%;
   }
 
   .form_title {
