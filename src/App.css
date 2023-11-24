@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1085px;
+  gap: 5%;
 }
 
 .pet-app>div {
@@ -74,7 +75,7 @@
 .form_title {
   color: #303030;
   text-align: center;
-  font-family: DM Sans;
+  font-family: DM Sans, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -349,7 +350,7 @@
 
 .recommendation h4 {
   color: #FFF;
-  font-family: DM Sans;
+  font-family: DM Sans, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;

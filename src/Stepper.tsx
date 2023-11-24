@@ -9,7 +9,7 @@ import FormStateContext from "./FormStateContext";
 import PetNameForm from "./PetNameForm";
 import SpecsForm from "./SpecsForm";
 import Results from "./Results";
-import dogilus from "./dogilus.png";
+import dogilus from "./img/dogilus.png";
 
 const FORM_STEPS = [
   {

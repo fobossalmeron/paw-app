@@ -2,6 +2,33 @@ import { useState } from "react";
 import { Button } from "antd";
 import products from "./products.json";
 import { Skeleton } from "antd";
+import salmonOil from "./img/Salmon Oil.png";
+import hipJoint from "./img/Hip & Joint.png";
+import calming from "./img/Calming.png";
+import skinCoat from "./img/Skin & Coat.png";
+import allerImmune from "./img/Aller Inmune.png";
+import probiotic from "./img/Probiotic.png";
+import shampooSensitiveSkin from "./img/Shampoo Sensitive Skin.png";
+import shampooItchyDog from "./img/Shampoo Itchy Dog.png";
+import pawtection from "./img/Pawtection.png";
+import snoutSoother from "./img/Snout Soother.png";
+import skinSoother from "./img/Skin Soother.png";
+import wrinkleBalm from "./img/Wrinkle Balm.png";
+
+const image: any = {
+  "Salmon Oil": salmonOil,
+  "Hip & Joint": hipJoint,
+  Calming: calming,
+  "Skin & Coat": skinCoat,
+  "Aller Inmune": allerImmune,
+  Probiotic: probiotic,
+  "Shampoo Sensitive Skin": shampooSensitiveSkin,
+  "Shampoo Itchy Dog": shampooItchyDog,
+  Pawtection: pawtection,
+  "Snout Soother": snoutSoother,
+  "Skin Soother": skinSoother,
+  "Wrinkle Balm": wrinkleBalm,
+};
 
 function Recommendation({ productId }: { productId: string }) {
   const [loaded, setLoaded] = useState(false);
@@ -18,7 +45,7 @@ function Recommendation({ productId }: { productId: string }) {
           style={!loaded ? {} : { display: "none" }}
         />
         <img
-          src={process.env.PUBLIC_URL + "/" + product.title + ".png"}
+          src={image[product.title]}
           alt={product.title}
           style={loaded ? { opacity: "100%" } : { opacity: "0%" }}
           onLoad={() => setLoaded(true)}
