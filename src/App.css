@@ -334,7 +334,7 @@
 
 .recommendation div {
   height: 128px;
-  width: auto;
+  width: 100%;
   position: relative;
 }
 
