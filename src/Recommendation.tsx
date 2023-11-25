@@ -2,20 +2,8 @@ import { useState } from "react";
 import { Button } from "antd";
 import products from "./products.json";
 import { Skeleton } from "antd";
-// import salmonOil from "./img/Salmon Oil.png";
-// import hipJoint from "./img/Hip & Joint.png";
-// import calming from "./img/Calming.png";
-// import skinCoat from "./img/Skin & Coat.png";
-// import allerImmune from "./img/Aller Inmune.png";
-// import probiotic from "./img/Probiotic.png";
-// import shampooSensitiveSkin from "./img/Shampoo Sensitive Skin.png";
-// import shampooItchyDog from "./img/Shampoo Itchy Dog.png";
-// import pawtection from "./img/Pawtection.png";
-// import snoutSoother from "./img/Snout Soother.png";
-// import skinSoother from "./img/Skin Soother.png";
-// import wrinkleBalm from "./img/Wrinkle Balm.png";
 
-const image: any = {
+const imageHosted: any = {
   "Salmon Oil": "d974be00-9509-4ac3-b1f2-71840459e140",
   "Hip & Joint": "e75361a4-810d-4c38-b548-330aa5d88392",
   Calming: "8569e10c-d14b-4b8f-931d-8d36a9af4543",
@@ -30,6 +18,22 @@ const image: any = {
   "Skin Soother": "d6c8f5c8-b362-4d86-b010-9e79907b3c33",
   "Wrinkle Balm": "ee3c4c66-91d7-4920-adfd-5921d8259a60",
 };
+
+// const image: any = {
+//   "Salmon Oil": "SalmonOil",
+//   "Hip & Joint": "Hip&Joint",
+//   Calming: "Calming",
+//   "Skin & Coat": "Skin&Coat",
+//   "Aller Inmune": "AllerInmune",
+//   Probiotic: "Probiotic",
+//   "Shampoo Sensitive Skin": "ShampooSensitiveSkin",
+//   "Shampoo Itchy Dog": "ShampooItchyDog",
+//   Pawtection: "Pawtection",
+//   Pawsoother: "Pawsoother",
+//   "Snout Soother": "SnoutSoother",
+//   "Skin Soother": "SkinSoother",
+//   "Wrinkle Balm": "WrinkleBalm",
+// };
 
 function Recommendation({ productId }: { productId: string }) {
   const [loaded, setLoaded] = useState(false);
@@ -46,8 +50,11 @@ function Recommendation({ productId }: { productId: string }) {
           style={!loaded ? {} : { display: "none" }}
         />
         <img
+          // src={`https://fobossalmeron.github.io/paw-app/${
+          //   image[product.title]
+          // }.png`}
           src={`https://ucarecdn.com/${
-            image[product.title]
+            imageHosted[product.title]
           }/-/preview/500x500/-/quality/smart_retina/-/format/auto/`}
           alt={product.title}
           style={loaded ? { opacity: "100%" } : { opacity: "0%" }}
