@@ -1,27 +1,15 @@
 {
   "files": {
     "main.css": "/paw-app/static/css/main.3b90e525.css",
-    "main.js": "/paw-app/static/js/main.0b847b10.js",
+    "main.js": "/paw-app/static/js/main.e4ceaab7.js",
     "static/js/787.e44e607f.chunk.js": "/paw-app/static/js/787.e44e607f.chunk.js",
-    "static/media/Aller Inmune.png": "/paw-app/static/media/Aller Inmune.bf7d23a01f19d6cc100f.png",
-    "static/media/Probiotic.png": "/paw-app/static/media/Probiotic.fb7879b6585df223a8b5.png",
-    "static/media/Skin Soother.png": "/paw-app/static/media/Skin Soother.636b73da429e8efc3d78.png",
-    "static/media/Snout Soother.png": "/paw-app/static/media/Snout Soother.f6b21ad90c75889fb879.png",
-    "static/media/Calming.png": "/paw-app/static/media/Calming.2ebc2cc0013efe652351.png",
-    "static/media/Skin & Coat.png": "/paw-app/static/media/Skin & Coat.a0f369ba86a2f4d9c0e3.png",
-    "static/media/Hip & Joint.png": "/paw-app/static/media/Hip & Joint.54496b2d7ef45a786764.png",
-    "static/media/Wrinkle Balm.png": "/paw-app/static/media/Wrinkle Balm.eeceebea8e072ea4a975.png",
-    "static/media/Pawtection.png": "/paw-app/static/media/Pawtection.a9311c42016d07bc28e6.png",
-    "static/media/Shampoo Sensitive Skin.png": "/paw-app/static/media/Shampoo Sensitive Skin.e288947b3164b16445d2.png",
-    "static/media/Shampoo Itchy Dog.png": "/paw-app/static/media/Shampoo Itchy Dog.adc6b34255d25919f1c3.png",
-    "static/media/Salmon Oil.png": "/paw-app/static/media/Salmon Oil.1eed9b9b5739a1621be3.png",
     "index.html": "/paw-app/index.html",
     "main.3b90e525.css.map": "/paw-app/static/css/main.3b90e525.css.map",
-    "main.0b847b10.js.map": "/paw-app/static/js/main.0b847b10.js.map",
+    "main.e4ceaab7.js.map": "/paw-app/static/js/main.e4ceaab7.js.map",
     "787.e44e607f.chunk.js.map": "/paw-app/static/js/787.e44e607f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b90e525.css",
-    "static/js/main.0b847b10.js"
+    "static/js/main.e4ceaab7.js"
   ]
 }

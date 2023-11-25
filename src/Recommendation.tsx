@@ -2,32 +2,32 @@ import { useState } from "react";
 import { Button } from "antd";
 import products from "./products.json";
 import { Skeleton } from "antd";
-import salmonOil from "./img/Salmon Oil.png";
-import hipJoint from "./img/Hip & Joint.png";
-import calming from "./img/Calming.png";
-import skinCoat from "./img/Skin & Coat.png";
-import allerImmune from "./img/Aller Inmune.png";
-import probiotic from "./img/Probiotic.png";
-import shampooSensitiveSkin from "./img/Shampoo Sensitive Skin.png";
-import shampooItchyDog from "./img/Shampoo Itchy Dog.png";
-import pawtection from "./img/Pawtection.png";
-import snoutSoother from "./img/Snout Soother.png";
-import skinSoother from "./img/Skin Soother.png";
-import wrinkleBalm from "./img/Wrinkle Balm.png";
+// import salmonOil from "./img/Salmon Oil.png";
+// import hipJoint from "./img/Hip & Joint.png";
+// import calming from "./img/Calming.png";
+// import skinCoat from "./img/Skin & Coat.png";
+// import allerImmune from "./img/Aller Inmune.png";
+// import probiotic from "./img/Probiotic.png";
+// import shampooSensitiveSkin from "./img/Shampoo Sensitive Skin.png";
+// import shampooItchyDog from "./img/Shampoo Itchy Dog.png";
+// import pawtection from "./img/Pawtection.png";
+// import snoutSoother from "./img/Snout Soother.png";
+// import skinSoother from "./img/Skin Soother.png";
+// import wrinkleBalm from "./img/Wrinkle Balm.png";
 
 const image: any = {
-  "Salmon Oil": salmonOil,
-  "Hip & Joint": hipJoint,
-  Calming: calming,
-  "Skin & Coat": skinCoat,
-  "Aller Inmune": allerImmune,
-  Probiotic: probiotic,
-  "Shampoo Sensitive Skin": shampooSensitiveSkin,
-  "Shampoo Itchy Dog": shampooItchyDog,
-  Pawtection: pawtection,
-  "Snout Soother": snoutSoother,
-  "Skin Soother": skinSoother,
-  "Wrinkle Balm": wrinkleBalm,
+  "Salmon Oil": "SalmonOil",
+  "Hip & Joint": "Hip&Joint",
+  Calming: "Calmin",
+  "Skin & Coat": "Skin&Coat",
+  "Aller Inmune": "AllerInmune",
+  Probiotic: "Probiotic",
+  "Shampoo Sensitive Skin": "ShampooSensitiveSkin",
+  "Shampoo Itchy Dog": "ShampooItchyDog",
+  Pawtection: "Pawtection",
+  "Snout Soother": "SnoutSoother",
+  "Skin Soother": "SkinSoother",
+  "Wrinkle Balm": "WrinkleBalm",
 };
 
 function Recommendation({ productId }: { productId: string }) {
@@ -45,7 +45,9 @@ function Recommendation({ productId }: { productId: string }) {
           style={!loaded ? {} : { display: "none" }}
         />
         <img
-          src={image[product.title]}
+          src={`https://github.com/fobossalmeron/paw-app/blob/gh-pages/${
+            image[product.title]
+          }.png?raw=true`}
           alt={product.title}
           style={loaded ? { opacity: "100%" } : { opacity: "0%" }}
           onLoad={() => setLoaded(true)}
