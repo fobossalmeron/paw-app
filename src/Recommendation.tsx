@@ -45,9 +45,9 @@ function Recommendation({ productId }: { productId: string }) {
           style={!loaded ? {} : { display: "none" }}
         />
         <img
-          src={`https://github.com/fobossalmeron/paw-app/blob/gh-pages/${
+          src={`https://fobossalmeron.github.io/paw-app/${
             image[product.title]
-          }.png?raw=true`}
+          }.png`}
           alt={product.title}
           style={loaded ? { opacity: "100%" } : { opacity: "0%" }}
           onLoad={() => setLoaded(true)}
