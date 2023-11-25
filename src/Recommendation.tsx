@@ -4,14 +4,14 @@ import products from "./products.json";
 import { Skeleton } from "antd";
 
 const imageHosted: any = {
-  "Salmon Oil": "d974be00-9509-4ac3-b1f2-71840459e140",
-  "Hip & Joint": "e75361a4-810d-4c38-b548-330aa5d88392",
-  Calming: "8569e10c-d14b-4b8f-931d-8d36a9af4543",
-  "Skin & Coat": "959ddf44-bf14-4d03-98a9-998bac5cbf56",
+  "Salmon Oil": "044a8cc2-ceec-4434-8791-6d13a24786ba",
+  "Hip & Joint": "2cec0bf9-18b6-42d3-949f-3cb45e0217f7",
+  Calming: "dc352305-2a01-4932-a6b6-4287a4469541",
+  "Skin & Coat": "bac33a8b-0be6-4aca-a630-b898b3b65f51",
   "Aller Inmune": "12dc8fac-5bea-45de-936a-d2ed84d64a9e",
   Probiotic: "696ae621-e78c-41b0-b285-4f5c49f327bc",
-  "Shampoo Sensitive Skin": "3829eff2-a2ad-4568-99c9-f712b32cfb90",
-  "Shampoo Itchy Dog": "39804cc5-29b1-4451-84c8-7cca056328e1",
+  "Shampoo Sensitive Skin": "61736d40-f720-49fc-bd72-0da957449bf8",
+  "Shampoo Itchy Dog": "3c2f2ef2-7e33-404d-880e-8c68adfa77ed",
   Pawtection: "5d761752-e9e4-4b8b-88d5-99db4ffa8b49",
   Pawsoother: "a7169be1-023c-420e-be63-9ef2eb77c532",
   "Snout Soother": "ebc4bc2f-0451-433b-917c-20eb90b868d6",
